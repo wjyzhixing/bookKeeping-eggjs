@@ -1,7 +1,7 @@
 'use strict';
 
 const { home } = require("egg-mock");
-
+const fs = require('fs');
 /**
  * @param {Egg.Application} app - egg application
  */
@@ -9,7 +9,7 @@ module.exports = app => {
   const { router, controller, jwt } = app;
   const jsonp = app.jsonp();
   console.log(app);
-  router.get('/', jsonp, controller.home.index);
+  router.get('/*', controller.home.index);
   // 增加路由测试+查询路由测试
   router.post('/add', jsonp, controller.home.add);
 

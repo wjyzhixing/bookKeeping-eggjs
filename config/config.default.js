@@ -1,7 +1,6 @@
 /* eslint valid-jsdoc: "off" */
-
 'use strict';
-
+const path = require('path');
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
@@ -11,6 +10,14 @@ module.exports = appInfo => {
    * @type {Egg.EggAppConfig}
    **/
   const config = exports = {};
+  config.static = {
+    prefix: '/',
+    dir: path.join(appInfo.baseDir, 'app/public'),
+    dynamic: true,
+    preload: false,
+    maxAge: 0,
+    buffer: false,
+  };
 
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1607063734677_6860';
