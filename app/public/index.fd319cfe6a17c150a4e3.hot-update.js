@@ -7233,7 +7233,7 @@ routes.push(_extends({}, {
   "pageSource": "C:\\bookkeeping\\.rax\\pages\\Home\\Page"
 }, {
   component: function component(routeProps) {
-    return Promise.all(/*! import() | pages_home_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_home_index.chunk~pages_login_index.chunk~pages_register_index.chunk"), __webpack_require__.e("pages_home_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/Home/Page */ "./.rax/pages/Home/Page.tsx")).then(function (mod) {
+    return Promise.all(/*! import() | pages_home_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~80fb616f"), __webpack_require__.e("vendor~pages_home_index.chunk~pages_login_index.chunk~pages_register_index.chunk"), __webpack_require__.e("pages_home_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/Home/Page */ "./.rax/pages/Home/Page.tsx")).then(function (mod) {
       return function () {
         var reference = interopRequire(mod);
 
@@ -7254,7 +7254,7 @@ routes.push(_extends({}, {
   "pageSource": "C:\\bookkeeping\\.rax\\pages\\Login\\Page"
 }, {
   component: function component(routeProps) {
-    return Promise.all(/*! import() | pages_login_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_login_index.chunk~pages_mainaction~6e69c965"), __webpack_require__.e("vendor~pages_home_index.chunk~pages_login_index.chunk~pages_register_index.chunk"), __webpack_require__.e("pages_login_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/Login/Page */ "./.rax/pages/Login/Page.tsx")).then(function (mod) {
+    return Promise.all(/*! import() | pages_login_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~80fb616f"), __webpack_require__.e("vendor~pages_home_index.chunk~pages_login_index.chunk~pages_register_index.chunk"), __webpack_require__.e("pages_login_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/Login/Page */ "./.rax/pages/Login/Page.tsx")).then(function (mod) {
       return function () {
         var reference = interopRequire(mod);
 
@@ -7296,7 +7296,7 @@ routes.push(_extends({}, {
   "pageSource": "C:\\bookkeeping\\.rax\\pages\\MainAction\\Page"
 }, {
   component: function component(routeProps) {
-    return Promise.all(/*! import() | pages_mainaction_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_login_index.chunk~pages_mainaction~6e69c965"), __webpack_require__.e("pages_mainaction_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/MainAction/Page */ "./.rax/pages/MainAction/Page.tsx")).then(function (mod) {
+    return Promise.all(/*! import() | pages_mainaction_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~80fb616f"), __webpack_require__.e("pages_mainaction_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/MainAction/Page */ "./.rax/pages/MainAction/Page.tsx")).then(function (mod) {
       return function () {
         var reference = interopRequire(mod);
 
@@ -7317,7 +7317,7 @@ routes.push(_extends({}, {
   "pageSource": "C:\\bookkeeping\\.rax\\pages\\AddPage\\Page"
 }, {
   component: function component(routeProps) {
-    return Promise.all(/*! import() | pages_addpage_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_login_index.chunk~pages_mainaction~6e69c965"), __webpack_require__.e("pages_addpage_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/AddPage/Page */ "./.rax/pages/AddPage/Page.tsx")).then(function (mod) {
+    return Promise.all(/*! import() | pages_addpage_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~80fb616f"), __webpack_require__.e("pages_addpage_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/AddPage/Page */ "./.rax/pages/AddPage/Page.tsx")).then(function (mod) {
       return function () {
         var reference = interopRequire(mod);
 
@@ -7338,7 +7338,7 @@ routes.push(_extends({}, {
   "pageSource": "C:\\bookkeeping\\.rax\\pages\\EditPage\\Page"
 }, {
   component: function component(routeProps) {
-    return Promise.all(/*! import() | pages_editpage_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_login_index.chunk~pages_mainaction~6e69c965"), __webpack_require__.e("pages_editpage_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/EditPage/Page */ "./.rax/pages/EditPage/Page.tsx")).then(function (mod) {
+    return Promise.all(/*! import() | pages_editpage_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~80fb616f"), __webpack_require__.e("pages_editpage_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/EditPage/Page */ "./.rax/pages/EditPage/Page.tsx")).then(function (mod) {
       return function () {
         var reference = interopRequire(mod);
 
@@ -7359,7 +7359,7 @@ routes.push(_extends({}, {
   "pageSource": "C:\\bookkeeping\\.rax\\pages\\ShowStatus\\Page"
 }, {
   component: function component(routeProps) {
-    return Promise.all(/*! import() | pages_showstatus_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_login_index.chunk~pages_mainaction~6e69c965"), __webpack_require__.e("vendor~pages_showstatus_index.chunk"), __webpack_require__.e("pages_showstatus_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/ShowStatus/Page */ "./.rax/pages/ShowStatus/Page.tsx")).then(function (mod) {
+    return Promise.all(/*! import() | pages_showstatus_index.chunk */[__webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~176d7ead"), __webpack_require__.e("vendor~pages_addpage_index.chunk~pages_editpage_index.chunk~pages_home_index.chunk~pages_login_index~80fb616f"), __webpack_require__.e("vendor~pages_showstatus_index.chunk"), __webpack_require__.e("pages_showstatus_index.chunk")]).then(__webpack_require__.bind(null, /*! ./.rax/pages/ShowStatus/Page */ "./.rax/pages/ShowStatus/Page.tsx")).then(function (mod) {
       return function () {
         var reference = interopRequire(mod);
 
@@ -7417,4 +7417,4 @@ var appConfig = _extends({}, {
 /***/ })
 
 })
-//# sourceMappingURL=index.f6697897388a7bcc2313.hot-update.js.map
+//# sourceMappingURL=index.fd319cfe6a17c150a4e3.hot-update.js.map
