@@ -1,1 +1,2 @@
 select content,max(price) from (select content,sum(price) as price,count(*) as count from price_table where userName='whm' group by content having count>=1) AS temp1
+select content,sum(price) as price,count(*) as count from price_table where userName='whm' group by content having count>=1

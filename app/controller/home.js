@@ -151,6 +151,54 @@ class HomeController extends Controller {
     console.log(result);
     ctx.body = { err: 0, message: '修改成功', result };
   }
+
+  // 统计出现的账单分布
+  async showStatus() {
+    const { ctx } = this;
+    const data = ctx.request.body;
+    console.log(data);
+    const result = await this.app.mysql.query('select content,user_sex, sum(price) as price,count(*) as count from price_table where userName = ? group by content having count>=1', [ data.username ]);
+    const keyMap = {
+      price: 'value',
+      content: 'x',
+    };
+    for (let i = 0; i < result.length; i++) {
+      const obj = result[i];
+      for (const key in obj) {
+        const newKey = keyMap[key];
+        if (newKey) {
+          obj[newKey] = obj[key];
+          delete obj[key];
+        }
+      }
+    }
+    console.log(result);
+    ctx.body = result;
+  }
+
+  // 统计男女账单信息
+  async selectSingle() {
+    const { ctx } = this;
+    const data = ctx.request.body;
+    const content = {
+      男: [[ '男' ]],
+      女: [[ '女' ]],
+      '': [[ '男', '女' ]],
+      default: [ '\'男\',\'女' ],
+    };
+    const getContent = sex => {
+      const name = content[sex] || content[''];
+      console.log(name[0]);
+      return name[0];
+    };
+    const result = await this.app.mysql.select('price_table', {
+      where: {
+        userName: data.userName,
+        user_sex: getContent(data.sex),
+      },
+    });
+    ctx.body = { code: 201, msg: '验证成功', result };
+  }
 }
 
 module.exports = HomeController;

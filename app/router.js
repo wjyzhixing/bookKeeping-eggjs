@@ -25,4 +25,8 @@ module.exports = app => {
   router.post('/delContent', jwt, controller.home.delContent);
   // 用户修改记账信息
   router.post('/editContent', jwt, controller.home.editContent);
+  // 统计账单分布
+  router.post('/showStatus', jwt, controller.home.showStatus);
+  // 统计男女账单信息
+  router.post('/selectSingle', jwt, controller.home.selectSingle);
 };
